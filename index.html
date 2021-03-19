@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Iolanta" />
+    <meta name="description" content="My first portfolio page" />
+    <meta
+      name="keywords"
+      content="portfolio, web developer, HTML, CSS, JavaScript"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montez&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/31b34c26b2.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="logo"><a href="index.html">Yolanda</a></h1>
+
+      <nav>
+        <button id="mobileButton">
+          <span class="material-icons"> menu </span>
+        </button>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="Contacts.html">Contacts</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="welcome">
+      <div>
+        <h1>WELCOME TO MY PORTFOLIO!</h1>
+        <br />
+        <p id="herobanner-text"></p>
+      </div>
+    </section>
+    <main>
+      <section class="container1">
+        <h2>Work</h2>
+        <div id="container1">
+          <div class="box">
+            <img src="pict1.jpg" alt="Past picture" class="img" />
+            <h4>Day Counter</h4>
+            <p>
+              <a href="#">Check the project</a>
+            </p>
+          </div>
+          <div class="box">
+            <img src="pict1.jpg" alt="Past picture" class="img" />
+            <h4>Speed Game</h4>
+            <p>
+              <a href="#">Check the project</a>
+            </p>
+          </div>
+          <div class="box">
+            <img src="pict1.jpg" alt="Past picture" class="img" />
+            <h4>Jackpot</h4>
+            <p>
+              <a href="#">Check the project</a>
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="container2">
+        <h2>Experience</h2>
+        <img src="pict2.jpg" alt="Picture of present" class="image2" />
+        <div class="paragraph">
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque
+            totam odit magnam voluptatem eveniet voluptate id nihil aliquid
+            <a href="#">Read more</a>
+          </p>
+        </div>
+      </section>
+      <section class="container3">
+        <h2>Skills</h2>
+        <div id="container3">
+          <div class="skill">
+            <i class="fab fa-html5"></i>
+            <h4>HTML</h4>
+            <span class="bar"><span class="html"></span></span>
+          </div>
+          <div class="skill">
+            <i class="fab fa-css3-alt"></i>
+            <h4>CSS</h4>
+            <span class="bar"><span class="css"></span></span>
+          </div>
+          <div class="skill">
+            <i class="fab fa-js-square"></i>
+            <h4>JavaScript</h4>
+            <span class="bar"><span class="js"></span></span>
+          </div>
+          <div class="skill">
+            <i class="fab fa-php"></i>
+            <h4>PHP</h4>
+            <span class="bar"><span class="php"></span></span>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <button id="backToTop">
+        <span class="material-icons">arrow_upward</span>
+      </button>
+      <div class="icons">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-linkedin"></i>
+        <i class="fas fa-envelope-square"></i>
+      </div>
+      <form>
+        <div class="contactme">
+          <label for="name">Name</label>
+          <input
+            type="text"
+            name="firstname"
+            id="name"
+            placeholder="Your name"
+          />
+        </div>
+        <div class="contactme">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Your email"
+          />
+        </div>
+        <div>
+          <label>Message</label>
+          <textarea
+            class="contactme"
+            name="subject"
+            placeholder="Your text..."
+            style="height: 100px"
+          ></textarea>
+        </div>
+        <button type="submit" class="contactme">SUBMIT</button>
+      </form>
+      <div class="copyright">
+        <p>Copyright &copy; My Website 2021</p>
+      </div>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>

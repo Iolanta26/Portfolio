@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Iolanta" />
+    <meta name="description" content="My first portfolio page" />
+    <meta
+      name="keywords"
+      content="portfolio, web developer, HTML, CSS, JavaScript"
+    />
+
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montez&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/31b34c26b2.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="logo"><a href="index.html">Yolanda</a></h1>
+
+      <nav>
+        <button id="mobileButton">
+          <span class="material-icons"> menu </span>
+        </button>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="Contacts.html">Contacts</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="welcome">
+      <h1>WELCOME TO MY PORTFOLIO!</h1>
+    </section>
+    <main>
+      <section id="gallery">
+        <div class="container">
+          <div class="gallery-grid">
+            <div class="grid-item-1 grid-div">
+              <img
+                src="https://source.unsplash.com/lT7zmkth3o8/1600x900"
+                alt="pic from unsplash"
+              />
+            </div>
+
+            <div class="grid-item-2 grid-div">
+              <img
+                src="https://source.unsplash.com/QZzA_JgREC4/1600x900"
+                alt="pic from unsplash"
+              />
+            </div>
+
+            <div class="grid-item-3 grid-div">
+              <img
+                src="https://source.unsplash.com/-CfmgesKVgw/1600x900"
+                alt="pic from unsplash"
+              />
+            </div>
+
+            <div class="grid-item-4 grid-div">
+              <img
+                src="https://source.unsplash.com/VF8hJ-tYplA/1600x900"
+                alt="pic from unsplash"
+              />
+            </div>
+
+            <div class="grid-item-5 grid-div">
+              <img
+                src="https://source.unsplash.com/collection/190727/1600x900"
+                alt="pic from unsplash"
+              />
+            </div>
+
+            <div class="grid-item-6 grid-div">
+              <img
+                src="https://source.unsplash.com/QrtTcy7Tvzg/1600x900"
+                alt="pic from unsplash"
+              />
+            </div>
+
+            <div class="grid-item-7 grid-div">
+              <img
+                src="https://source.unsplash.com/Iss0jLQ5tSc/1600x900"
+                alt="pic from unsplash"
+              />
+            </div>
+
+            <div class="grid-item-8 grid-div">
+              <img
+                src="https://source.unsplash.com/LUbQ0YVujRs/1600x900"
+                alt="pic from unsplash"
+              />
+            </div>
+
+            <div class="grid-item-9 grid-div">
+              <img
+                src="https://source.unsplash.com/9jQaLa8_IW0/1600x900"
+                alt="pic from unsplash"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <button id="backToTop">
+        <span class="material-icons">arrow_upward</span>
+      </button>
+      <div class="icons">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-linkedin"></i>
+        <i class="fas fa-envelope-square"></i>
+      </div>
+      <form>
+        <div class="contactme">
+          <label for="name">Name</label>
+          <input
+            type="text"
+            name="firstname"
+            id="name"
+            placeholder="Your name"
+          />
+        </div>
+        <div class="contactme">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Your email"
+          />
+        </div>
+        <div>
+          <label>Message</label>
+          <textarea
+            class="contactme"
+            name="subject"
+            placeholder="Your text..."
+            style="height: 100px"
+          ></textarea>
+        </div>
+        <button type="submit" class="contactme">SUBMIT</button>
+      </form>
+      <div class="copyright">
+        <p>Copyright &copy; My Website 2021</p>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
